@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнение автомобилей: Lamborghini, Voyah, Jaguar</title>
+    <style>
+        /* Стили для полного заполнения ячейки картинкой без искажений */
+        .img-td {
+            padding: 0 !important;
+            height: 180px; /* Фиксированная высота для одинакового размера ячеек */
+        }
+        .img-td img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Сохраняет пропорции и заполняет всё пространство */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="center">Сравнение автомобильных брендов</h1>
+
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <caption><center><strong>Характеристики моделей: Lamborghini, Voyah и Jaguar</strong></center></caption>
+        <thead>
+            <tr bgcolor="#0066cc">
+                <th><font color="white">Критерий сравнения</font></th>
+                <th><font color="white">Lamborghini<br>(Revuelto)</font></th>
+                <th><font color="white">Voyah<br>(Free)</font></th>
+                <th><font color="white">Jaguar<br>(F-Pace)</font></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Фото модели</strong></td>
+                <td align="center" class="img-td"><img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=500" alt="Lamborghini"></td>
+                <td align="center" class="img-td"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500" alt="Voyah"></td>
+                <td align="center" class="img-td"><img src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=500" alt="Jaguar"></td>
+            </tr>
+            <tr>
+                <td><strong>Самая дорогая модель</strong></td>
+                <td><mark>Да (Гибридный суперкар)</mark></td>
+                <td>Нет (Средний ценовой сегмент)</td>
+                <td>Нет (Премиум SUV)</td>
+            </tr>
+            <tr>
+                <td><strong>Самая дешёвая модель</strong></td>
+                <td>Нет</td>
+                <td><mark>Да (Доступнее в линейке электрокроссоверов)</mark></td>
+                <td>Нет</td>
+            </tr>
+            <tr>
+                <td><strong>Двигатель</strong></td>
+                <td>Бензиновый V12 + электромоторы (Гибрид)</td>
+                <td>Электрический (EV / EREV)</td>
+                <td>Бензиновый / Дизельный</td>
+            </tr>
+            <tr>
+                <td><strong>Расход топлива</strong></td>
+                <td>Высокий (&gt;12 л / 100 км)</td>
+                <td>Электроэнергия (~20 кВт·ч / 100 км)</td>
+                <td>Средний (8–10 л / 100 км)</td>
+            </tr>
+            <tr>
+                <td><strong>Скорость / Максимальная скорость</strong></td>
+                <td>До 350 км/ч</td>
+                <td>До 200 км/ч</td>
+                <td>До 250 км/ч</td>
+            </tr>
+            <tr>
+                <td><strong>Тип коробки передач</strong></td>
+                <td>Роботизированная (8-ступенчатая)</td>
+                <td>Автоматическая (Редуктор)</td>
+                <td>Автоматическая (8-ступенчатая)</td>
+            </tr>
+            <tr>
+                <td><strong>Количество передач</strong></td>
+                <td>8</td>
+                <td>1 (Одноступенчатый редуктор)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td><strong>Наличие экологических сертификатов</strong></td>
+                <td>Евро-6 (с ограничениями по выбросам CO2)</td>
+                <td>Электро/Гибрид (Zero Emission класс)</td>
+                <td>Евро-6</td>
+            </tr>
+            <tr>
+                <td><strong>Гарантийный срок</strong></td>
+                <td>3 года без ограничения пробега</td>     <!---- <td colspan="3" align="center">3 года или 100 000 км</td> ----->
+                <td>5 лет или 100 000 км</td>
+                <td>3 года или 100 000 км</td>
+            </tr>
+            <tr>
+                <td><strong>Информация о производителе</strong></td>
+                <td>
+                    <details>
+                        <summary>Подробнее о Lamborghini</summary>
+                        Итальянский производитель премиальных спортивных автомобилей, основанный в 1963 году Ферруччо Ламборгини.
+                    </details>
+                </td>
+                <td>
+                    <details>
+                        <summary>Подробнее о Voyah</summary>
+                        Премиальный суббренд китайского концерна Dongfeng, специализирующийся на электромобилях.
+                    </details>
+                </td>
+                <td>
+                    <details>
+                        <summary>Подробнее о Jaguar</summary>
+                        Британская марка автомобилей класса «люкс», входящая в состав компании JLR (Jaguar Land Rover).
+                    </details>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="#f1f1f1">
+                <td colspan="4" align="center"><strong>Таблица подготовлена в рамках выполнения лабораторной работы по дисциплине веб-разработки.</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
